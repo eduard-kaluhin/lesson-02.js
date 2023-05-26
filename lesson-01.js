@@ -194,3 +194,41 @@
 // const doubleDigitMinutes = String(minutes).padStart(2, 0);
 // console.log(`${doubleDigitHours}:${doubleDigitMinutes}`);
 // ```
+            // moi reshenia
+//       const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
+// const newClients = ['Peach', 'Houston'];
+
+// const allClients =  oldClients.concat ( newClients); // Change this line
+
+
+// function makeArray(firstArray, secondArray, maxLength) {
+//     let newArray = firstArray.concat(secondArray);
+//     if (newArray.length > maxLength) {
+//       return newArray.slice(0, maxLength);
+//     } else {
+//       return newArray;
+//     }
+//   }
+
+// const start = 3;
+// const end = 7;
+
+// for (let i = start; i <= end ; i += 1 ) { // Change this line
+//   console.log(i);
+// }
+
+const book = {
+  title: "The Last Kingdom",
+  author: "Bernard Cornwell",
+  genres: ["historical prose", "adventure"],
+  rating: 8.38,
+};
+const animal = {
+  legs: 4,
+};
+const dog = Object.create(animal);
+dog.name = "Манго";
+
+console.log(dog);
+console.log(dog.name); 
+console.log(dog.legs); 
